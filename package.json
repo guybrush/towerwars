@@ -1,0 +1,19 @@
+{
+  "name": "towerwarz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "browser": {
+    "dat-gui": "./vendor/dat.gui.js",
+    "stats": "./vendor/stats.r11.min.js"
+  },
+  "author": "Patrick Pfeiffer <patrick@buzzle.at>",
+  "license": "MIT",
+  "dependencies": {
+    "gl-shader": "^4.0.1",
+    "inherits": "^2.0.1"
+  }
+}
